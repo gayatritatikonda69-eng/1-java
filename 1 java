@@ -1,0 +1,60 @@
+1. Which widget in Flutter provides information about the screen size, orientation, and pixel density?
+Flutter
+LayoutBuilder
+OrientationBuilder
+MediaQuery
+FractionallySizedBox
+2. What is the primary purpose of LayoutBuilder in responsive design?
+Flutter
+To change the device orientation
+To obtain the constraints of the parent widget and build UI based on available space
+To measure text dimensions
+To animate layout changes
+3. Which breakpoint range typically defines a tablet device in this experiment?
+Responsive Design
+width < 600
+600 ≤ width < 1024
+width ≥ 1024
+width > 1440
+4. What does the NavigationRail widget provide in Flutter?
+Flutter Widgets
+A bottom navigation bar
+A side navigation menu for larger screens (desktop/tablet)
+A top app bar
+A floating action button
+5. Why is it recommended to use LayoutBuilder inside the body of a widget instead of MediaQuery for nested layouts?
+Flutter
+LayoutBuilder is faster
+LayoutBuilder gives the actual available space from the parent, which may be smaller than the full screen
+MediaQuery does not work inside StatelessWidgets
+LayoutBuilder can change orientation
+6. What is the purpose of the Expanded widget in a Row?
+Flutter
+It makes the child take all remaining available space
+It adds padding around the child
+It centers the child
+It limits the child to a fixed size
+7. How does OrientationBuilder rebuild when the device rotates?
+Flutter
+It compares width and height to detect orientation
+It uses MediaQuery underneath but only rebuilds the builder when orientation changes
+It listens to the device's gyroscope
+Both A and B are correct
+8. In the provided code, what layout is used on a tablet screen?
+Recall
+Single column
+GridView with 2 columns
+Row with 3 columns
+NavigationRail + Row
+9. Which property of MediaQueryData gives the width of the screen?
+Flutter
+screenWidth
+size.width
+width
+deviceWidth
+10. What is the advantage of using FractionallySizedBox over a SizedBox with fixed width?
+Responsive Design
+It scales with the parent container
+It is more precise
+It works only with images
+It is faster
